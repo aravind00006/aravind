@@ -16,21 +16,3 @@ result = liner__search(lst, num)
 
 verify(result)
 
-def binary_search(lst, target):
-    first = 0
-    last = len(lst) - 1
-
-    while first <= last:
-        middle = (first + last) //2
-
-        if lst[middle] == target:
-            return middle
-        elif lst[middle] < target:
-            first = middle + 1
-        else:
-            last = middle - 1
-    return None
-
-
-res = binary_search(lst, num)
-verify(res)
