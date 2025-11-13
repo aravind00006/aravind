@@ -23,7 +23,7 @@ def verify(index):
         print("The value is not in the list.")
 
 
-lst = [x for x in range(0, 101)]
+lst = [x for x in range(0, 10)]
 num = int(input("Enter a number to search: "))
 
 result = binary_search(lst, num)
