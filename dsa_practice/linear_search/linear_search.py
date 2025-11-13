@@ -15,4 +15,3 @@ num = int(input('enter a num: '))
 result = liner__search(lst, num)
 
 verify(result)
-
