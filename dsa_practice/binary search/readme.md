@@ -28,7 +28,3 @@ It works by repeatedly dividing the search range in half until the target is fou
 Binary Search is significantly faster than Linear Search for large datasets, but **only works on sorted lists**.
 
 ---
-
-## ▶️ Example
-
-**Input:**
